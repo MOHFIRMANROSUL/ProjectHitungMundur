@@ -25,4 +25,9 @@ function startCountdown() {
         }
     }, 1000)
 };// Get the current date and time
+
+// Start countdown when button is clicked
+document.getElementById("startBtn").addEventListener("click", function() {
+    startCountdown();
+});
         
